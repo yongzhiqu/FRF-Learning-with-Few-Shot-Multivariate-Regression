@@ -1,4 +1,4 @@
-# Few-Shot-Multivariate-Regression
+# FRF-Learning-with-Few-Shot-Multivariate-Regression
 
 Codes are developed based on the https://github.com/fewshotreg/Few-Shot-Regression
 
