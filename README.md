@@ -7,7 +7,7 @@ Model should be executed in the command window in an environment with TensorFlow
 
 ## Data:
 
-Matlab preprepocessed spindle spectra data are provided as training and testing data. The data is saved in .pkl format for direct read using the coce.
+Matlab preprocessed spindle spectra data are provided as training and testing data. The data is saved in .pkl format for direct read using the coce.
 
 "spindledata_complex_5_3.pkl" contains dataset A, the data for training.
 
