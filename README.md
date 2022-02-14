@@ -9,7 +9,7 @@ Model should be executed in the command window in an environment with TensorFlow
 ffn_main_spindle.py,  ffn_model_2D.py,  reg_data_generator.py,  Plot_Results.py
 
 ## ffn_main_spindle.py : 
-The first part of the code initializes the model, model parameters and hyperparameters, and loads in the data. The model’s name for the training loop is specified in this part, this name is what the model is saved under after training occurs and is used to load the model in for few-shot training and testing. 
+This code initializes the model, model parameters and hyperparameters, and loads in the data. The model’s name for the training loop is specified in this part, this name is what the model is saved under after training occurs and is used to load the model in for few-shot training and testing. 
 
 After the model is initialized, there are three operations within the main script:
 Training loop, Few-shot training loop, testing loop
