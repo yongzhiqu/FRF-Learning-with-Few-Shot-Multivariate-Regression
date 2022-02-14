@@ -57,10 +57,13 @@ Load in the previously trained or few-shot trained model for testing. Previously
 
 ffn_model_2D.py:
 Defines the model structure for the three main portions:
+
 Feature extractor module:
 	Define the depth and width of the fully connected neural network layers
+	
 Weights generator module:
 	Define the number of attention layers and the width of the attention layers. 
+	
 Dot product module:
 	How the results from the feature extractor module and weights generator module are used to calculate a prediction and the associated model losses. 
 
