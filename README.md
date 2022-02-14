@@ -17,9 +17,13 @@ Training loop, Few-shot training loop, testing loop
 The main script is written to only run one part at a time. The script must be run once to perform the training, then again to perform few-shot training, then again to run the testing. To specify which operation that is to be run set the corresponding flag to True, and the rest to False in the first part of the code.
 
 ** Defines which operation within the model to perform **
+
 ** Only one should be set to True at a time **
+
 flags.DEFINE_bool('Training', True, '--')
+
 flags.DEFINE_bool('Few_Shot_Train', False, '--')
+
 flags.DEFINE_bool('Testing', False, '--')
 
 ## Operation 1: Training Loop
