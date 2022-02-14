@@ -1,6 +1,6 @@
 # FRF-Learning-with-Few-Shot-Multivariate-Regression
 
-This repository contains the coode for the paper "Run-time Cutting Force Estimation Based on Learned Nonlinear Frequency Response Function ". Codes are developed based on the https://github.com/fewshotreg/Few-Shot-Regression
+This repository contains the coode for the paper "Run-time Cutting Force Estimation Based on Learned Nonlinear Frequency Response Function ". Codes are developed based on https://github.com/fewshotreg/Few-Shot-Regression
 
 Model Explanation: 
 Model should be executed in the command window in an environment with TensorFlow version 1 installed. All files should be in the same folder when running the code. 
