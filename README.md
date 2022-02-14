@@ -29,7 +29,7 @@ flags.DEFINE_bool('Testing', False, '--')
 ## Operation 1: Training Loop
 The model is trained on the data from the training portion (Spindle_Train_Generator) from reg_data_generator.py, then saved after the specified number of epochs. 
 ## Operation 2: Few-Shot Training Loop
-Few-Shot training does not need to be performed, it is a means of further updating the model on a few samples from the testing data to improve the model performance. 
+Few-Shot training is not mandatory. It is a means of further updating the model on a few samples from the testing data to improve the model performance. Perform Few-Shot training based on needs.
 
 The previously trained model’s name needs to be specified within this loop for it to be loaded in correctly. Previously trained model is trained further on a specified number of samples from the testing dataset, which is loaded from reg_data_generator (Spindle_Test_Generator), then saved. Models that are trained via few-shot are saved with “_few_shot” added to the model’s name.
 
