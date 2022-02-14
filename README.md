@@ -1,9 +1,20 @@
 # FRF-Learning-with-Few-Shot-Multivariate-Regression
 
-Codes are developed based on the https://github.com/fewshotreg/Few-Shot-Regression
+This repository contains the coode for the paper "Run-time Cutting Force Estimation Based on Learned Nonlinear Frequency Response Function ". Codes are developed based on the https://github.com/fewshotreg/Few-Shot-Regression
 
 Model Explanation: 
 Model should be executed in the command window in an environment with TensorFlow version 1 installed. All files should be in the same folder when running the code. 
+
+## Data:
+
+Matlab preprepocessed spindle spectra data are provided as training and testing data. The data is saved in .pkl format for direct read using the coce.
+
+"spindledata_complex_5_3.pkl" contains dataset A, the data for training.
+
+"spindledata_complex_5_5.pkl" contains dataset B, the data for testing under same machine condition.
+
+"spindledata_complex_1_15.pkl" contains dataset C, the data for testing under different machine condition with few shot learning.
+
 
 ## Model consists of four scripts: 
 ffn_main_spindle.py,  ffn_model_2D.py,  reg_data_generator.py,  Plot_Results.py
