@@ -49,8 +49,9 @@ Load in the previously trained or few-shot trained model for testing. Previously
 
 ## Results are saved in dictionary that has two parts:
 
-{vib} which is the ground truth, has three parts [real, imaginary, frequency]
-{force} which is the prediction, has two parts [real, imaginary]
+{vib} which is the ground truth, has three dimensions [real, imaginary, frequency]
+
+{force} which is the prediction, has two dimensions [real, imaginary]
 
 ## Function description:
 
